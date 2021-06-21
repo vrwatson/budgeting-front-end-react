@@ -47,7 +47,6 @@ const totalCalculation = () => {
   transactions.forEach((t) => {
     total += Number(t.amount) 
   })
-  console.log(total);
   return total;
 }
 
