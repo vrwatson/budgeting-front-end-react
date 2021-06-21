@@ -1,0 +1,19 @@
+.navBar {
+    display: grid;
+    display: flex;
+    justify-content: space-around;
+    background-color: orange;
+    opacity: 80%;
+}
+
+.toNewTransaction {
+    background-color: orange;
+    opacity: 80%;
+    border: none;
+}
+
+.toTransactions, .toNewTransaction {
+    font-size: 26px;
+    font-weight: bold;
+    border: none;
+}
